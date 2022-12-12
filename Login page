@@ -13,7 +13,7 @@ body {
     padding: 0;
     font-family: sans-serif;
     /* 	background: url(bg.jpg); */
-    background-image: linear-gradient(to right top, #1db9ff, #a2a0ff, #fb7ad4, #ff677a, #f48603);
+    background-image: linear-gradient(to right top, #191b04, #0d0aca, #fb7ad4, #ff677a, #f48603);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,7 +25,7 @@ body {
 	transform: translate(-50%,-50%);
 	width: 400px;
 	padding: 40px;
-	background: rgba(0,0,0,.4);
+	background: rgba(52, 23, 122, 0.315);
 	box-sizing: border-box;
 	box-shadow: 0 15px 25px rgba(0,0,0,.5);
 	border-radius: 10px;
@@ -75,24 +75,24 @@ body {
 }
 .box .inputBox input:focus ~ label, 
 .box .inputBox input:valid ~ label {
-	top: -19px;
+	top: -10px;
 	left:0;
-	color: #03A9F4;
+	color: #1bdd35a1;
 	font-size: 12px;
 }
 .box input[type='submit'] {
 	background: transparent;
 	border: none;
 	outline: none;
-	color: rgb(14, 200, 233);
-	background: #ec15b6;
+	color: rgb(6, 17, 177);
+	background: #26bd08;
 	padding: 10px 20px;
 	cursor: pointer;
 	border-radius: 5px;
 	font-size: 14px;
 }
 .box input[type='submit']:hover {
-	background-color: rgba(89, 9, 143, 0.7);
+	background-color: rgba(20, 214, 30, 0.7);
 }
 @media(max-width: 720px){
 	.box {
